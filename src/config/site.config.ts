@@ -4,6 +4,7 @@ export const siteConfig = {
   chainName: "Robinhood Chain",
   contractAddress: "CONTRACT_ADDRESS",
   contractExplorerUrl: null as string | null,
+  chartEmbedUrl: null as string | null,
   tradeUrl: "#transparency",
   fundraiserUrl: "https://next.privat24.ua/env/donate/b2188461",
   officialStatementUrl: "#source-unavailable",
