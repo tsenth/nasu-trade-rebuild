@@ -2,7 +2,7 @@ export const siteConfig = {
   projectName: "NASU",
   ticker: "$NASU",
   chainName: "Robinhood Chain",
-  contractAddress: "CONTRACT_ADDRESS",
+  contractAddress: "0x90c292e8c6932c93af2b6001e1448181382c3e59",
   contractExplorerUrl: null as string | null,
   chartEmbedUrl: null as string | null,
   tradeUrl: "#transparency",
