@@ -1,18 +1,17 @@
 import type { Metadata, Viewport } from "next";
-import { IBM_Plex_Mono, Inter_Tight } from "next/font/google";
+import { Newsreader, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 
-const display = Inter_Tight({ variable: "--font-display", subsets: ["latin"], display: "swap" });
-const mono = IBM_Plex_Mono({ variable: "--font-mono-custom", subsets: ["latin"], weight: ["400", "500", "600"], display: "swap" });
+const serif = Newsreader({ variable: "--font-serif", subsets: ["latin"], display: "swap" });
+const sans = Source_Sans_3({ variable: "--font-sans", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "NASU — Trade & Rebuild",
-  description: "An independent community initiative directing 100% of $NASU developer rewards to reconstruction support.",
+  description: "An independent community initiative supporting reconstruction connected to the National Academy of Sciences of Ukraine.",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
-
-export const viewport: Viewport = { colorScheme: "dark", themeColor: "#0a0a0a" };
+export const viewport: Viewport = { colorScheme: "light dark", themeColor: "#151613" };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={`${display.variable} ${mono.variable}`}><body>{children}</body></html>;
+  return <html lang="en" className={`${serif.variable} ${sans.variable}`}><body>{children}</body></html>;
 }

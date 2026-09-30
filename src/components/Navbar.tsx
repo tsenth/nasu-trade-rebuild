@@ -1,8 +1,6 @@
-import { siteConfig } from "@/src/config/site.config";
-
 export function Navbar() {
-  return <nav className="nav" aria-label="Primary navigation">
-    <a className="wordmark" href="#top" aria-label="NASU home">{siteConfig.projectName}<span>{siteConfig.ticker}</span></a>
-    <div className="nav-links mono"><a href="#mission">MISSION</a><a href="#transparency">TRANSPARENCY</a><a href="#donate">DONATE</a></div>
+  return <nav className="nav frame" aria-label="Primary navigation">
+    <a className="wordmark" href="#top" aria-label="NASU home">NASU</a>
+    <div className="nav-links"><a href="#story">Story</a><a href="#help">Help</a></div>
   </nav>;
 }

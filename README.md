@@ -1,6 +1,6 @@
 # NASU — Trade & Rebuild
 
-A single-page documentary website for NASU ($NASU), an independent community initiative that designates 100% of token developer rewards for reconstruction support. The project does not represent or imply affiliation with the National Academy of Sciences of Ukraine, PrivatBank, or Robinhood.
+A compact three-chapter documentary website for NASU ($NASU): what happened, why it matters, and two ways to help reconstruction. The project does not represent or imply affiliation with the National Academy of Sciences of Ukraine, PrivatBank, or Robinhood.
 
 ## Local development
 
@@ -30,9 +30,10 @@ Frequently changed values are centralized in `src/config/site.config.ts`. Update
 Place the supplied hero assets at:
 
 - `public/media/nasu-hero.mp4`
-- `public/media/nasu-hero-poster.jpg`
+- `public/media/building-damage.jpg`
+- `public/media/people-escaping.jpg`
 
-The page remains intentional if either file is absent. A dark documentary-style background is used. Optional images can later be added as `public/media/damage-01.jpg` and `public/media/damage-02.jpg` with proper attribution.
+These supplied documentary assets are part of the published experience. Add verified source and credit details in `src/config/site.config.ts` when available.
 
 ## Donation data
 
